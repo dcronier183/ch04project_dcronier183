@@ -1,1 +1,16 @@
 /* print stylesheet */
+nav {
+    display: none;
+}
+
+img {
+    display: none;
+}
+
+body {
+    display: block;
+}
+
+section {
+    display: block;
+}
