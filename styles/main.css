@@ -1,4 +1,33 @@
 /* main stylesheet */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
 body {
     display: grid;
 }
